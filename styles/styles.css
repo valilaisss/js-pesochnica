@@ -1,1 +1,19 @@
 @import url("base.css");
+.tab.is-no-active {
+    font-weight: bold;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(10px);
+      background-color: #ff169a;
+    }
+    50% {
+      transform: translateY(-20px);
+      background-color: #00ffc3;
+    }
+  }
+  
+  .box.is-bouncing {
+    animation: bounce 0.8s ease infinite;
+  }

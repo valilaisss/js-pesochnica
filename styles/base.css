@@ -115,8 +115,9 @@ main {
 }
 
 .mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 }
 
 .pane {
@@ -127,9 +128,6 @@ main {
   display: block;
 }
 .tab.is-active {
-  font-weight: bold;
-}
-.tab.is-no-active {
   font-weight: bold;
 }
 
@@ -213,7 +211,6 @@ main {
   cursor: move;
 }
 
-
 .game-area {
   position: relative;
   width: 100%;
@@ -251,21 +248,3 @@ main {
   font-size: 20px;
   font-weight: 700;
 }
-
-
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(10px);
-    background-color: #ff169a;
-  }
-  50% {
-    transform: translateY(-20px);
-    background-color: #00ffc3;
-  }
-}
-
-.box.is-bouncing {
-  animation: bounce 0.8s ease infinite;
-}
-
